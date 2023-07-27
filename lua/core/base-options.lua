@@ -1,4 +1,3 @@
--- 基本設定
 -- 参考: https://trap.jp/post/524/
 -- マウス操作を有効にする
 vim.opt.mouse = "a"
