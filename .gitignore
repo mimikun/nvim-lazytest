@@ -1,2 +1,3 @@
 *.patch
 *.patch.gpg
+lazy-lock.json
