@@ -8,15 +8,15 @@ end
 vim.cmd("filetype plugin indent off")
 
 -- options を読み込む
-require("core.options")
+require("options")
 
 -- keymap を読み込む
-require("core.keymaps")
+require("keymaps")
 
 -- plugin を読み込む
-require("core.plugins")
+require("lazyvim")
 
 -- autocmd勉強用ファイルを読み込む
---require("core.event_learn_support")
+--require("event_learn_support")
 
 vim.cmd("filetype plugin indent on")
