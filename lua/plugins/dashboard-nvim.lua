@@ -2,7 +2,7 @@ return {
     "glepnir/dashboard-nvim",
     event = "VimEnter",
     dependencies = {
-        { "nvim-tree/nvim-web-devicons" }
+        { "nvim-tree/nvim-web-devicons" },
     },
     cond = false,
     config = function()

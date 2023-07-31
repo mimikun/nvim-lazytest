@@ -123,8 +123,8 @@ vim.cmd([[
     autocmd WinResized * lua vim.notify('WinResized ')
 ]]
 --autocmd UserGettingBored * lua vim.notify('UserGettingBored ')
-                vim.api.nvim_create_autocmd("FileType", {
-                    group = "my_glyph_palette",
-                    pattern = "fern",
-                    command = "call glyph_palette#apply()",
-                })
+vim.api.nvim_create_autocmd("FileType", {
+    group = "my_glyph_palette",
+    pattern = "fern",
+    command = "call glyph_palette#apply()",
+})
